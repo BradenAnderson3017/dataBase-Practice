@@ -4,7 +4,8 @@
     "description": "",
     "main": "server.js",
     "scripts": {
-      "local": "node -r dotenv/config --watch server.js"
+      "local": "node -r dotenv/config --watch server.js",
+      "build": "npm install && npm run compile"
     },
     "author": "Thomas Chan",
     "license": "ISC",
